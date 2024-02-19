@@ -22,7 +22,7 @@ class _HomeState extends State<Home> {
           actions: const [
             Padding(
               padding: EdgeInsets.only(right: 25.0),
-              child: Icon(Icons.shopping_cart),
+              child: Icon(Icons.shopping_bag),
             ),
           ],
         ),
