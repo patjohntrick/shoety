@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:shoety/screens/container_img.dart';
 import 'package:shoety/screens/home.dart';
 
 void main() {
@@ -34,9 +35,10 @@ class MyApp extends StatelessWidget {
           seedColor: Colors.deepPurple,
           background: Colors.grey[100],
         ),
+        fontFamily: 'Oswald',
         useMaterial3: true,
       ),
-      home: const Home(),
+      home: const ContainerImg(),
     );
   }
 }
