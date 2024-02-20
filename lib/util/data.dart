@@ -51,16 +51,16 @@ List menTab = [
   // Men
   {
     "category": men,
-    "imgPath": "assets/men-1.png",
-    "name": "Jordan 1 Craft",
-    "price": "P8,895",
+    "imgPath": "assets/men-2.png",
+    "name": "Nike Calm",
+    "price": "P2,595",
     "path": "",
   },
   {
     "category": men,
-    "imgPath": "assets/men-2.png",
-    "name": "Nike Calm",
-    "price": "P2,595",
+    "imgPath": "assets/men-1.png",
+    "name": "Jordan 1 Craft",
+    "price": "P8,895",
     "path": "",
   },
   {
