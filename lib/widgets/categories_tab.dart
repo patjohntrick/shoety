@@ -51,7 +51,7 @@ class _CategoriesTabState extends State<CategoriesTab>
           //   color: Colors.black,
           // ),
           child: Padding(
-            padding: EdgeInsets.fromLTRB(25.0, 0, 25.0, 0),
+            padding: const EdgeInsets.fromLTRB(25.0, 0, 25.0, 0),
             child: TabBarView(
               controller: tabBarController,
               children: [
@@ -66,11 +66,11 @@ class _CategoriesTabState extends State<CategoriesTab>
                             ShoeCard(
                                 imgPath: 'assets/best-seller-1.png',
                                 price: 'P5,551.00',
-                                title: 'Nike Air'),
+                                name: 'Nike Air'),
                             ShoeCard(
                                 imgPath: 'assets/best-seller-1.png',
                                 price: 'P5,551.00',
-                                title: 'Nike Air'),
+                                name: 'Nike Air'),
                           ],
                         ),
                         Row(
@@ -79,11 +79,11 @@ class _CategoriesTabState extends State<CategoriesTab>
                             ShoeCard(
                                 imgPath: 'assets/best-seller-1.png',
                                 price: 'P5,551.00',
-                                title: 'Nike Air'),
+                                name: 'Nike Air'),
                             ShoeCard(
                                 imgPath: 'assets/best-seller-1.png',
                                 price: 'P5,551.00',
-                                title: 'Nike Air'),
+                                name: 'Nike Air'),
                           ],
                         ),
                       ],

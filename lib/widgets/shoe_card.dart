@@ -2,10 +2,11 @@ import 'package:flutter/material.dart';
 
 class ShoeCard extends StatelessWidget {
   final String? imgPath;
-  final String? title;
+  final String? name;
   final String? price;
+  final String? path;
 
-  const ShoeCard({super.key, this.imgPath, this.price, this.title});
+  const ShoeCard({super.key, this.imgPath, this.price, this.name, this.path});
 
   @override
   Widget build(BuildContext context) {
@@ -29,12 +30,12 @@ class ShoeCard extends StatelessWidget {
             height: 16.0,
           ),
           Text(
-            title.toString(),
-            style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.w500),
+            name.toString(),
+            style: const TextStyle(fontSize: 20.0, fontWeight: FontWeight.w500),
           ),
           Text(
             '$price',
-            style: TextStyle(fontSize: 18.0),
+            style: const TextStyle(fontSize: 18.0),
           )
         ],
       ),
