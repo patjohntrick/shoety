@@ -1,7 +1,5 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
-import 'package:shoety/util/functions.dart';
+
 import 'package:shoety/widgets/banner.dart';
 import 'package:shoety/widgets/category_tab.dart';
 import 'package:shoety/widgets/my_appbar.dart';

@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:shoety/screens/container_img.dart';
+
 import 'package:shoety/screens/home.dart';
-import 'package:shoety/screens/listview.dart';
 
 void main() {
   runApp(const MyApp());
